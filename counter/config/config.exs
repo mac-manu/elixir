@@ -10,10 +10,10 @@ use Mix.Config
 # Configures the endpoint
 config :counter, CounterWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "E9YCKVomlo1K1aoFS/BoOzwl+C4DpZox+HSp/CPA5rN5zTPrmp5zwslnq2OsyM70",
+  secret_key_base: "5qAKBqthxa4voaXdOe9qpC78VgUm+p/+0GIBpjgHFf7xT+7+QW4MmhW+OjZGxGxl",
   render_errors: [view: CounterWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Counter.PubSub,
-  live_view: [signing_salt: "GpPYmW1G"]
+  live_view: [signing_salt: "eT/FKDwT"]
 
 # Configures Elixir's Logger
 config :logger, :console,

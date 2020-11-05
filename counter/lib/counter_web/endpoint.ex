@@ -7,7 +7,7 @@ defmodule CounterWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_counter_key",
-    signing_salt: "AY7X2Q4W"
+    signing_salt: "dgLABo8J"
   ]
 
   socket "/socket", CounterWeb.UserSocket,
