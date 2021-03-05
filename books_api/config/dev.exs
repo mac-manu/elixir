@@ -2,12 +2,18 @@ use Mix.Config
 
 # Configure your database
 config :books_api, BooksApi.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "manux",
+  password: "agf050ekQyWY",
   database: "books_api_dev",
-  hostname: "localhost",
+  hostname: "192.168.1.160",
+  port: 8889,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
+
+# username: manux #root en local
+# password: agf050ekQyWY
+# host: 192.168.1.160
+# port: 8889
 
 # For development, we disable any cache and enable
 # debugging and code reloading.

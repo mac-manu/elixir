@@ -14,10 +14,10 @@ config :books_api,
 # Configures the endpoint
 config :books_api, BooksApiWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "6zK+noM0rGL/mCm3NcTWIERCM3kRvQYBJwLup5kpzE5SI5t/70ykncq3l/IGfTYF",
+  secret_key_base: "dOGJgK6ykVZwwhuee6mr6AaUhGY+gRF8eOT6TKWqQ23Zyso/tn+HKpac4k+wC5hF",
   render_errors: [view: BooksApiWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: BooksApi.PubSub,
-  live_view: [signing_salt: "ZMwFZ4db"]
+  live_view: [signing_salt: "3VZXlZEU"]
 
 # Configures Elixir's Logger
 config :logger, :console,

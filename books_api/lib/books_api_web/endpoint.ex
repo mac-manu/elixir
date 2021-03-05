@@ -7,7 +7,7 @@ defmodule BooksApiWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_books_api_key",
-    signing_salt: "pe0h61l1"
+    signing_salt: "Uvmpb1D3"
   ]
 
   socket "/socket", BooksApiWeb.UserSocket,
